@@ -4799,3 +4799,27 @@ footer ul.social_icons {
 	margin-top: 35px;
 }
 
+#inner_banner{
+	padding-top: 230px;
+}
+
+
+
+/**  this is the **/
+
+@media (max-width: 776px) {
+  
+	header {
+        position: fixed;
+    }
+ 
+	#inner_banner{
+		padding-top: 110px;
+	}
+
+	#slider{
+		     padding-top: 120px;
+	}
+  
+
+}
