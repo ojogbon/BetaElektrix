@@ -17,7 +17,8 @@ if(!empty($_firstName)&&!empty($_lastName)&&!empty($_email)&&!empty($_phone)&&!e
     // ini_set("sendmail_path", "C:\wamp\bin\sendmail.exe -t");
     mail($sendingTo,$subject,$_message,$header);
     
-   echo "Thank you for sending us feedback";
+   echo "thank you for contacting us";
+   echo "<script> window.location.replace('./it_contact.html');</script>";
 }else{
     echo "<div class='alert alert-danger'><b> Fields can't be </b> Please try again<a href='contact.html'>Go Back</a></div>";
 }

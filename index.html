@@ -35,6 +35,11 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
+      <style>
+          .myclick{
+            cursor: pointer;
+          }
+      </style>
 
 </head>
 <body id="default_theme" class="it_service">
@@ -83,7 +88,7 @@
                
                 </li>
                 <li><a  href="it_about.html">About Us</a></li>
-                <li> <a href="it_service_1.html">Service</a>
+                <li> <a href="#">Services</a>
                   <ul>
                     <li><a href="it_service_1.html">Low & Medium Voltage Switchgear</a></li>
                     <li><a href="it_service_2.html">General Electrical Services</a></li>
@@ -118,11 +123,11 @@
         <!-- START REVOLUTION SLIDER 5.0.7 auto mode -->
         <div id="rev_slider_4_1" class="rev_slider fullwidthabanner" style="display:none;" data-version="5.0.7">
           <ul>
-            <li  data-index="rs-1812" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/contact.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Low & Medium Voltage Switchgear" data-description="">
+            <li class="myclick"  data-topath="./it_service_1.html"  data-index="rs-1812" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/contact.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Low & Medium Voltage Switchgear" data-description="">
               <!-- MAIN IMAGE -->
-              <img src="images/contact.jpg"  alt="#"  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+              <img src="images/contact.jpg" data-topath="./it_service_1.html"  alt="#"  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
               <!-- LAYERS -->
-              <!-- LAYER NR. BG -->
+              LAYER NR. BG
               <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" 
                               id="slide-270-layer-1012" 
                               data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
@@ -137,23 +142,10 @@
                               data-basealign="slide" 
                               data-responsive_offset="on" 
                               data-responsive="off"
-                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> </div>
+                              style="z-index: 5;background-color: transparent"
+                              data-topath="./it_service_1.html"> </div>
               <!-- LAYER NR. 1 -->
-              <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" 
-                              id="slide-18-layer-912" 
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                              data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']" 
-                              data-width="500"
-                              data-height="140"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;" 
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                              data-mask_in="x:0px;y:0px;" 
-                              data-mask_out="x:inherit;y:inherit;" 
-                              data-start="2000" 
-                              data-responsive_offset="on" 
-                              style="z-index: 5;background-color:rgba(29, 29, 29, 0.85);border-color:rgba(0, 0, 0, 0.50);"> </div>
+            
               <!-- LAYER NR. 2 -->
               
               <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" 
@@ -175,7 +167,8 @@
                               data-splitout="none" 
                               data-responsive_offset="on" 
                               data-elementdelay="0.05" 
-                              style="z-index: 6; white-space: nowrap; ">Low & Medium <br> Voltage Switchgear  </div>
+                              style="z-index: 6; white-space: nowrap; "
+                              data-topath="./it_service_1.html">Low & Medium <br> Voltage Switchgear  </div>
               <!-- LAYER NR. 3 -->
               <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
                               id="slide-18-layer-412" 
@@ -193,11 +186,12 @@
                               data-splitin="none" 
                               data-splitout="none" 
                               data-responsive_offset="on" 
-                              style="z-index: 7; white-space: nowrap;"></div> 
+                              style="z-index: 7; white-space: nowrap;"
+                              data-topath="./it_service_1.html"></div> 
             </li> 
-            <li data-index="rs-181" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/project5.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="General Electrical Services" data-description="">
+            <li  class="myclick"  data-topath="./it_service_2.html" data-index="rs-181" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/project5.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="General Electrical Services" data-description="">
               <!-- MAIN IMAGE -->
-              <img src="images/project5.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+              <img src="images/project5.jpg"  data-topath="./it_service_2.html" alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
               <!-- LAYERS -->
               <!-- LAYER NR. BG -->
               <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" 
@@ -214,23 +208,10 @@
                               data-basealign="slide" 
                               data-responsive_offset="on" 
                               data-responsive="off"
-                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> </div>
+                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"
+                              data-topath="./it_service_2.html"> </div>
               <!-- LAYER NR. 1 -->
-              <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" 
-                              id="slide-18-layer-91" 
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                              data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']" 
-                              data-width="500"
-                              data-height="140"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;" 
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                              data-mask_in="x:0px;y:0px;" 
-                              data-mask_out="x:inherit;y:inherit;" 
-                              data-start="2000" 
-                              data-responsive_offset="on" 
-                              style="z-index: 5;background-color:rgba(29, 29, 29, 0.85);border-color:rgba(0, 0, 0, 0.50);"> </div>
+            
               <!-- LAYER NR. 2 -->
               <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" 
                               id="slide-18-layer-11" 
@@ -251,7 +232,8 @@
                               data-splitout="none" 
                               data-responsive_offset="on" 
                               data-elementdelay="0.05" 
-                              style="z-index: 6; white-space: nowrap; font-size:2em">General Electrical Services </div>
+                              style="z-index: 6; white-space: nowrap; font-size:2em"
+                              data-topath="./it_service_2.html">General Electrical Services </div>
               <!-- LAYER NR. 3 -->
               <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
                               id="slide-18-layer-41" 
@@ -269,11 +251,12 @@
                               data-splitin="none" 
                               data-splitout="none" 
                               data-responsive_offset="on" 
-                              style="z-index: 7; white-space: nowrap;"> </div>
+                              style="z-index: 7; white-space: nowrap;" 
+                              data-topath="./it_service_2.html"> </div>
             </li>
-            <li data-index="rs-182" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/mission.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Metering, Calibration and Testing Services" data-description="">
+            <li  class="myclick"  data-topath="./it_service_3.html" data-index="rs-182" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/mission.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Metering, Calibration and Testing Services" data-description="">
               <!-- MAIN IMAGE -->
-              <img src="images/mission.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+              <img src="images/mission.jpg" data-topath="./it_service_3.html"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
               <!-- LAYERS -->
               <!-- LAYER NR. BG -->
               <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" 
@@ -290,23 +273,10 @@
                               data-basealign="slide" 
                               data-responsive_offset="on" 
                               data-responsive="off"
-                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> </div>
+                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"
+                              data-topath="./it_service_3.html"> </div>
               <!-- LAYER NR. 1 -->
-              <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" 
-                              id="slide-18-layer-9" 
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                              data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']" 
-                              data-width="500"
-                              data-height="140"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;" 
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                              data-mask_in="x:0px;y:0px;" 
-                              data-mask_out="x:inherit;y:inherit;" 
-                              data-start="2000" 
-                              data-responsive_offset="on" 
-                              style="z-index: 5;background-color:rgba(29, 29, 29, 0.85);border-color:rgba(0, 0, 0, 0.50);"> </div>
+             
               <!-- LAYER NR. 2 -->
               <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" 
                               id="slide-18-layer-1" 
@@ -327,7 +297,8 @@
                               data-splitout="none" 
                               data-responsive_offset="on" 
                               data-elementdelay="0.05" 
-                              style="z-index: 6; white-space: nowrap; font-size:2em"> Metering, Calibration <br>  & Testing  </div>
+                              style="z-index: 6; white-space: nowrap; font-size:2em"
+                              data-topath="./it_service_3.html"> Metering, Calibration <br>  & Testing  </div>
               <!-- LAYER NR. 3 -->
               <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
                               id="slide-18-layer-4" 
@@ -345,12 +316,13 @@
                               data-splitin="none" 
                               data-splitout="none" 
                               data-responsive_offset="on" 
-                              style="z-index: 7; white-space: nowrap;"><br> <br>  </div>
+                              style="z-index: 7; white-space: nowrap;"
+                              data-topath="./it_service_3.html"><br> <br>  </div>
             </li>
 
-            <li data-index="rs-183" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/project4.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Process Automation and Industrial Controls" data-description="">
+            <li  class="myclick"  data-topath="./it_service_4.html" data-index="rs-183" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/project4.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Process Automation and Industrial Controls" data-description="">
               <!-- MAIN IMAGE -->
-              <img src="images/project4.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+              <img src="images/project4.jpg" data-topath="./it_service_4.html" alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
               <!-- LAYERS -->
               <!-- LAYER NR. BG -->
               <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" 
@@ -367,23 +339,10 @@
                               data-basealign="slide" 
                               data-responsive_offset="on" 
                               data-responsive="off"
-                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> </div>
+                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"
+                              data-topath="./it_service_4.html"> </div>
               <!-- LAYER NR. 1 -->
-              <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" 
-                              id="slide-18-layer-9" 
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                              data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']" 
-                              data-width="500"
-                              data-height="140"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;" 
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                              data-mask_in="x:0px;y:0px;" 
-                              data-mask_out="x:inherit;y:inherit;" 
-                              data-start="2000" 
-                              data-responsive_offset="on" 
-                              style="z-index: 5;background-color:rgba(29, 29, 29, 0.85);border-color:rgba(0, 0, 0, 0.50);"> </div>
+       
               <!-- LAYER NR. 2 -->
               <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" 
                               id="slide-18-layer-1" 
@@ -404,7 +363,8 @@
                               data-splitout="none" 
                               data-responsive_offset="on" 
                               data-elementdelay="0.05" 
-                              style="z-index: 6; white-space: nowrap; font-size:2em">Process Automation & <br> Industrial Controls </div>
+                              style="z-index: 6; white-space: nowrap; font-size:2em"
+                              data-topath="./it_service_4.html">Process Automation & <br> Industrial Controls </div>
               <!-- LAYER NR. 3 -->
               <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
                               id="slide-18-layer-4" 
@@ -422,13 +382,14 @@
                               data-splitin="none" 
                               data-splitout="none" 
                               data-responsive_offset="on" 
-                              style="z-index: 7; white-space: nowrap;"> </div>
+                              style="z-index: 7; white-space: nowrap;"
+                              data-topath="./it_service_4.html"> </div>
             </li>
 
             
-            <li data-index="rs-185" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/project3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Building Technology Solutions" data-description="">
+            <li  class="myclick"  data-topath="./it_service_5.html" data-index="rs-185" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/project3.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Building Technology Solutions" data-description="">
               <!-- MAIN IMAGE -->
-              <img src="images/project3.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+              <img src="images/project3.jpg" data-topath="./it_service_5.html" alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
               <!-- LAYERS -->
               <!-- LAYER NR. BG -->
               <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" 
@@ -445,23 +406,10 @@
                               data-basealign="slide" 
                               data-responsive_offset="on" 
                               data-responsive="off"
-                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> </div>
+                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"
+                              data-topath="./it_service_5.html"data-topath="./it_service_1.html"> </div>
               <!-- LAYER NR. 1 -->
-              <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" 
-                              id="slide-18-layer-9" 
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                              data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']" 
-                              data-width="500"
-                              data-height="140"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;" 
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                              data-mask_in="x:0px;y:0px;" 
-                              data-mask_out="x:inherit;y:inherit;" 
-                              data-start="2000" 
-                              data-responsive_offset="on" 
-                              style="z-index: 5;background-color:rgba(29, 29, 29, 0.85);border-color:rgba(0, 0, 0, 0.50);"> </div>
+             
               <!-- LAYER NR. 2 -->
               <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" 
                               id="slide-18-layer-1" 
@@ -482,7 +430,8 @@
                               data-splitout="none" 
                               data-responsive_offset="on" 
                               data-elementdelay="0.05" 
-                              style="z-index: 6; white-space: nowrap; font-size:2em">Building Technology <br> Solutions </div>
+                              style="z-index: 6; white-space: nowrap; font-size:2em"
+                              data-topath="./it_service_5.html">Building Technology <br> Solutions </div>
               <!-- LAYER NR. 3 -->
               <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
                               id="slide-18-layer-4" 
@@ -500,12 +449,13 @@
                               data-splitin="none" 
                               data-splitout="none" 
                               data-responsive_offset="on" 
-                              style="z-index: 7; white-space: nowrap;"> </div>
+                              style="z-index: 7; white-space: nowrap;"
+                              data-topath="./it_service_5.html"> </div>
             </li>
 
-            <li data-index="rs-186" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/project1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Renewable Energy" data-description="">
+            <li  class="myclick"  data-topath="./it_service_6.html" data-index="rs-186" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/project1.jpg"  data-rotate="0"  data-saveperformance="off"  data-title="Renewable Energy" data-description="">
               <!-- MAIN IMAGE -->
-              <img src="images/project1.jpg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+              <img src="images/project1.jpg" data-topath="./it_service_6.html"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
               <!-- LAYERS -->
               <!-- LAYER NR. BG -->
               <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" 
@@ -522,23 +472,10 @@
                               data-basealign="slide" 
                               data-responsive_offset="on" 
                               data-responsive="off"
-                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> </div>
+                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);" 
+                              data-topath="./it_service_6.html"> </div>
               <!-- LAYER NR. 1 -->
-              <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" 
-                              id="slide-18-layer-9" 
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                              data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']" 
-                              data-width="500"
-                              data-height="140"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;" 
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                              data-mask_in="x:0px;y:0px;" 
-                              data-mask_out="x:inherit;y:inherit;" 
-                              data-start="2000" 
-                              data-responsive_offset="on" 
-                              style="z-index: 5;background-color:rgba(29, 29, 29, 0.85);border-color:rgba(0, 0, 0, 0.50);"> </div>
+             
               <!-- LAYER NR. 2 -->
               <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" 
                               id="slide-18-layer-1" 
@@ -559,7 +496,8 @@
                               data-splitout="none" 
                               data-responsive_offset="on" 
                               data-elementdelay="0.05" 
-                              style="z-index: 6; white-space: nowrap; font-size:2em">Renewable Energy </div>
+                              style="z-index: 6; white-space: nowrap; font-size:2em"
+                              data-topath="./it_service_6.html">Renewable Energy </div>
               <!-- LAYER NR. 3 -->
               <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
                               id="slide-18-layer-4" 
@@ -577,12 +515,13 @@
                               data-splitin="none" 
                               data-splitout="none" 
                               data-responsive_offset="on" 
-                              style="z-index: 7; white-space: nowrap;"> </div>
+                              style="z-index: 7; white-space: nowrap;"
+                              data-topath="./it_service_6.html"> </div>
             </li>
 
-            <li data-index="rs-187" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/10.jpeg"  data-rotate="0"  data-saveperformance="off"  data-title="Training and Consultancy" data-description="">
+            <li  class="myclick"  data-topath="./it_service_7.html" data-index="rs-187" data-transition="zoomin" data-slotamount="7"  data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="2000"  data-thumb="images/10.jpeg"  data-rotate="0"  data-saveperformance="off"  data-title="Training and Consultancy" data-description="">
               <!-- MAIN IMAGE -->
-              <img src="images/10.jpeg"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
+              <img src="images/10.jpeg"  data-topath="./it_service_7.html"  alt=""  data-bgposition="center center" data-kenburns="on" data-duration="30000" data-ease="Linear.easeNone" data-scalestart="100" data-scaleend="120" data-rotatestart="0" data-rotateend="0" data-offsetstart="0 0" data-offsetend="0 0" data-bgparallax="10" class="rev-slidebg" data-no-retina>
               <!-- LAYERS -->
               <!-- LAYER NR. BG -->
               <div class="tp-caption tp-shape tp-shapewrapper   rs-parallaxlevel-0" 
@@ -599,23 +538,10 @@
                               data-basealign="slide" 
                               data-responsive_offset="on" 
                               data-responsive="off"
-                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"> </div>
+                              style="z-index: 5;background-color:rgba(0, 0, 0, 0.25);border-color:rgba(0, 0, 0, 0.50);"
+                              data-topath="./it_service_7.html"> </div>
               <!-- LAYER NR. 1 -->
-              <div class="tp-caption tp-shape tp-shapewrapper   tp-resizeme rs-parallaxlevel-0" 
-                              id="slide-18-layer-9" 
-                              data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
-                              data-y="['middle','middle','middle','middle']" data-voffset="['15','15','15','15']" 
-                              data-width="500"
-                              data-height="140"
-                              data-whitespace="nowrap"
-                              data-transform_idle="o:1;"
-                              data-transform_in="y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;s:1500;e:Power4.easeInOut;" 
-                              data-transform_out="y:[100%];s:1000;e:Power2.easeInOut;s:1000;e:Power2.easeInOut;" 
-                              data-mask_in="x:0px;y:0px;" 
-                              data-mask_out="x:inherit;y:inherit;" 
-                              data-start="2000" 
-                              data-responsive_offset="on" 
-                              style="z-index: 5;background-color:rgba(29, 29, 29, 0.85);border-color:rgba(0, 0, 0, 0.50);"> </div>
+           
               <!-- LAYER NR. 2 -->
               <div class="tp-caption NotGeneric-Title   tp-resizeme rs-parallaxlevel-0" 
                               id="slide-18-layer-1" 
@@ -636,7 +562,8 @@
                               data-splitout="none" 
                               data-responsive_offset="on" 
                               data-elementdelay="0.05" 
-                              style="z-index: 6; white-space: nowrap; font-size:2em">Renewable Energy </div>
+                              style="z-index: 6; white-space: nowrap; font-size:2em"
+                              data-topath="./it_service_7.html">Renewable Energy </div>
               <!-- LAYER NR. 3 -->
               <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
                               id="slide-18-layer-4" 
@@ -654,7 +581,8 @@
                               data-splitin="none" 
                               data-splitout="none" 
                               data-responsive_offset="on" 
-                              style="z-index: 7; white-space: nowrap;"> </div>
+                              style="z-index: 7; white-space: nowrap;"
+                              data-topath="./it_service_7.html"> </div>
             </li>
             
           
@@ -754,9 +682,9 @@
     <div class="row">
       <div class="col-md-12">
         <div class="full">
-          <div class="main_heading text_align_right">
+          <div class="main_heading text_align_center">
             <h2>WHY CHOOSE US</h2>
-            <h3> We are <b>Specialists</b>  in electro-mechanical engineering <i>...we do it better</i>. </h3>
+            <h3> We are <b>Specialists</b>  in electro-mechanical engineering  <i>...we do it better</i>. </h3>
           
             <p >    Driven by young and agile professionals with clear focus on contracting, procurement,<br> project management, consulting, training and outsourcing. Our primary objective is to provide <br> our customers with robust, efficient engineering and technical solutions at optimum rates.</p>
         
@@ -765,52 +693,53 @@
       </div>
     </div>
     <div class="row counter">
-      <div class="col-md-4"> </div>
-      <div class="col-md-8">
+      <div class="col-md-12">
         <div class="row">
+        
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margin_bottom_50">
-            <div class="text_align_right"><i class="fa fa-check"></i></div>
-            <div class="text_align_right">
-              <p class="counter-heading text_align_right">Quality Engineering</p>
+            <div class="text_align_center"><i class="fa fa-check"></i></div>
+            <div class="text_align_center">
+              <p class="counter-heading text_align_center">General Electrical Services</p>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margin_bottom_50">
-            <div class="text_align_right"><i class="fa fa-check"></i></div>
-            <div class="text_align_right">
-              <p class="counter-heading text_align_right">General Electrical Services</p>
-            </div>
-          </div>
-          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margin_bottom_50">
-            <div class="text_align_right"><i class="fa fa-check"></i></div>
-            <div class="text_align_right">
+            <div class="text_align_center"><i class="fa fa-check"></i></div>
+            <div class="text_align_center">
               <p class="counter-heading">Low Voltage and Medium Voltage Panels</p>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margin_bottom_50">
-            <div class="text_align_right"><i class="fa fa-check"></i></div>
-            <div class="text_align_right">
+            <div class="text_align_center"><i class="fa fa-check"></i></div>
+            <div class="text_align_center">
               <p class="counter-heading">Metering, Calibration and Testing Services</p>
             </div>
           </div>
 
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margin_bottom_50">
-            <div class="text_align_right"><i class="fa fa-check"></i></div>
-            <div class="text_align_right">
+            <div class="text_align_center"><i class="fa fa-check"></i></div>
+            <div class="text_align_center">
               <p class="counter-heading">    Building Technology Solutions</p>
             </div>
           </div>
 
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margin_bottom_50">
-            <div class="text_align_right"><i class="fa fa-check"></i></div>
-            <div class="text_align_right">
+            <div class="text_align_center"><i class="fa fa-check"></i></div>
+            <div class="text_align_center">
               <p class="counter-heading">   Process Automation and Industrial Controls </p>
             </div>
           </div>
 
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margin_bottom_50">
-            <div class="text_align_right"><i class="fa fa-check"></i></div>
-            <div class="text_align_right">
+            <div class="text_align_center"><i class="fa fa-check"></i></div>
+            <div class="text_align_center">
               <p class="counter-heading">    Renewable Energy </p>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margin_bottom_50">
+            <div class="text_align_center"><i class="fa fa-check"></i></div>
+            <div class="text_align_center">
+              <p class="counter-heading text_align_center">Training and Consultancy
+              </p>
             </div>
           </div>
         </div>
@@ -834,26 +763,16 @@
             <div class="main-heading left_text">
               <h2>Beta Elektrix</h2>
             </div>
-            <p>We provide high quality and engineering and technical solutions in a safe, innovative, cost effective and professional manner to enable our customers reach their goals.
+            <p>We provide high quality engineering and technical solutions in a safe, innovative, cost effective and professional manner to enable our customers reach their goals.
               Beta Elektrix also offers a robust training and consulting service covering the entire spectrum of industrial electro-mechanical systems.</p>
           
           </div>
-          <div class="col-md-6">
-            <div class="main-heading left_text">
-              <h2>Our Campany</h2>
-            </div>
-            <ul class="footer-menu">
-              <li><a href="it_about.html"><i class="fa fa-angle-right"></i> About us</a></li>
-              <li><a href="it_service_1.html"><i class="fa fa-angle-right"></i> 
-              service</a></li>
-             
-            </ul>
-          </div>
+       
         
         </div>
       </div>
       <div class="cprt">
-        <p>Copyright  © BetaEletric 2021 </p>
+        <p>Copyright  © BetaEletrix 2021 </p>
       </div>
     </div>
   </div>
@@ -985,6 +904,17 @@
              icon: image
            });
          }
+
+        function doMyClick (){
+            document.addEventListener("click",event => {
+
+              if(event.target.matches('.myclick, .myclick *')) {
+                 window.location.replace(event.target.dataset.topath);
+              }
+
+            });
+         }
+         doMyClick ();
       </script>
 <!-- google map js -->
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>

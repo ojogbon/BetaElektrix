@@ -3479,7 +3479,6 @@ footer ul.social_icons {
 
 .gross_layout::after {
 	position: absolute;
-	background: url(../images/project3.jpg);
 	width: 35%;
 	height: 100%;
 	right: 0;
@@ -3503,7 +3502,6 @@ footer ul.social_icons {
 
 .gross_layout.right_gross_layout::after {
 	position: absolute;
-	background: url(../images/project3.jpg);
 	width: 35%;
 	height: 100%;
 	left: 0;
@@ -4800,7 +4798,7 @@ footer ul.social_icons {
 }
 
 #inner_banner{
-	padding-top: 230px;
+	padding-top: 100px;
 }
 
 
