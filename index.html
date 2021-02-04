@@ -563,7 +563,7 @@
                               data-responsive_offset="on" 
                               data-elementdelay="0.05" 
                               style="z-index: 6; white-space: nowrap; font-size:2em"
-                              data-topath="./it_service_7.html">Renewable Energy </div>
+                              data-topath="./it_service_7.html">Training and Consultancy </div>
               <!-- LAYER NR. 3 -->
               <div class="tp-caption NotGeneric-SubTitle   tp-resizeme rs-parallaxlevel-0" 
                               id="slide-18-layer-4" 
@@ -732,7 +732,7 @@
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margin_bottom_50">
             <div class="text_align_center"><i class="fa fa-check"></i></div>
             <div class="text_align_center">
-              <p class="counter-heading">    Renewable Energy </p>
+              <p class="counter-heading">    Training and Consultancy </p>
             </div>
           </div>
           <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 margin_bottom_50">
@@ -772,7 +772,7 @@
         </div>
       </div>
       <div class="cprt">
-        <p>Copyright  © BetaEletrix 2021 </p>
+        <p>Copyright  © BetaElektrix 2021 </p>
       </div>
     </div>
   </div>
@@ -909,7 +909,10 @@
             document.addEventListener("click",event => {
 
               if(event.target.matches('.myclick, .myclick *')) {
+                console.log(!event.target.classList.contains("tp-caption"));
+                    if(event.target.classList.contains("tp-caption"))
                  window.location.replace(event.target.dataset.topath);
+                 
               }
 
             });
